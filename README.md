@@ -226,6 +226,17 @@ GitHub: Add your repository URL.
 
 API Documentation: http://127.0.0.1:8000/docs#/
 
+Medium Article
+https://medium.com/@madhurib4555/building-a-lost-found-caller-with-postgresql-and-call-e-7a938885abcf
+
+## 👩‍💻 Author
+K.sai jahnavi
+
+B.Tech AIML Student
+
+GitHub:
+https://github.com/MadhuriBaja
+
 ## ⚠️ Disclaimer
 
 FUTUREMIND AI provides exploratory scenarios and decision-support insights. Its AI-generated outcomes are not guaranteed predictions.

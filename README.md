@@ -138,21 +138,21 @@ FUTUREMIND AI uses a frontend, backend, AI processing, and database architecture
 
 ## 🛠️ Tech Stack
 
-Technology                      Purpose
+Technology              -         Purpose
 
-React + Vite                    Frontend
+React + Vite            -         Frontend
 
-Python + FastAPI                Backend
+Python + FastAPI        -        Backend
 
-Qwen AI                        AI analysis
+Qwen AI                -         AI analysis
 
-MongoDB Atlas                   Database
+MongoDB Atlas           -         Database
 
-PyMongo                      Database connection
+PyMongo             -          Database connection
 
-Vercel                        Frontend deployment
+Vercel             -            Frontend deployment
 
-Render                        Backend deployment
+Render              -           Backend deployment
 
 ## ⚙️ Local Setup
 
@@ -186,15 +186,15 @@ Open http://localhost:5173 in your browser.
 
 ## 🌐 Deployment
 
-Component                     Platform
+Component        -              Platform
 
-Frontend                       Vercel
+Frontend         -              Vercel
 
-Backend                        Render
+Backend          -               Render
 
-Database                     MongoDB Atlas
+Database        -              MongoDB Atlas
 
-Source Code                    GitHub
+Source Code       -              GitHub
 
 ## 🔐 Security
 

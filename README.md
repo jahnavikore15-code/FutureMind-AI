@@ -222,12 +222,12 @@ Advanced risk analysis.
 
 Live Demo: https://future-mind-ai.vercel.app
 
-GitHub: Add your repository URL.
+GitHub: https://github.com/jahnavikore15-code/FutureMind-AI
 
 API Documentation: http://127.0.0.1:8000/docs#/
 
 Medium Article
-https://medium.com/@madhurib4555/building-a-lost-found-caller-with-postgresql-and-call-e-7a938885abcf
+https://medium.com/@jahnavikore15/futuremind-ai-738e47c651fa?sharedUserId=jahnavikore15
 
 ## 👩‍💻 Author
 K.sai jahnavi
@@ -235,7 +235,7 @@ K.sai jahnavi
 B.Tech AIML Student
 
 GitHub:
-https://github.com/MadhuriBaja
+https://github.com/jahnavikore15-code
 
 ## ⚠️ Disclaimer
 

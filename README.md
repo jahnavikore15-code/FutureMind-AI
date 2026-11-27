@@ -81,85 +81,78 @@ Simulation History: Saves and retrieves previous simulations using MongoDB Atlas
 
 Demo Mode: Explore the application even without a Qwen API key.
 
-## 🏗️Architecture
+## Architecture
 
-User Decision
-     |
-     ▼
-React + Vite Frontend
-     |
-     ▼
-FastAPI Backend
-     |
-     ▼
-Three Specialist AI Agents
-     |
-     ▼
-Qwen AI Scenario Synthesis
-     |
-     ▼
-Future Scenarios & Recommendations
-     |
-     ▼
-MongoDB Atlas
+FUTUREMIND AI uses a frontend, backend, AI processing, and database architecture.
+
+                  ┌─────────────────────────┐
+                  │          USER           │
+                  │   Decision & Context    │
+                  └────────────┬────────────┘
+                               │
+                               ▼
+                  ┌─────────────────────────┐
+                  │      React + Vite       │
+                  │      Web Interface     │
+                  └────────────┬────────────┘
+                               │
+                               ▼
+                  ┌─────────────────────────┐
+                  │      FastAPI Backend    │
+                  │     Request Handling    │
+                  └────────────┬────────────┘
+                               │
+                ┌──────────────┴──────────────┐
+                │                             │
+                ▼                             ▼
+       ┌──────────────────┐         ┌──────────────────┐
+       │  People Impact   │         │ Operations & Cost│
+       │      Agent       │         │      Agent       │
+       └────────┬─────────┘         └────────┬─────────┘
+                │                             │
+                └──────────────┬──────────────┘
+                               │
+                               ▼
+                     ┌──────────────────┐
+                     │ Risk & Opportunity│
+                     │       Agent       │
+                     └────────┬─────────┘
+                              │
+                              ▼
+                     ┌──────────────────┐
+                     │   Qwen AI Engine │
+                     │ Scenario Synthesis│
+                     └────────┬─────────┘
+                              │
+                              ▼
+                     ┌──────────────────┐
+                     │ Future Scenarios │
+                     │ Recommendations  │
+                     └────────┬─────────┘
+                              │
+                              ▼
+                     ┌──────────────────┐
+                     │   MongoDB Atlas  │
+                     │ Simulation History│
+                     └──────────────────┘
 
 ## 🛠️ Tech Stack
 
-Technology
+Technology                      Purpose
 
-Purpose
+React + Vite                    Frontend
 
-React + Vite
+Python + FastAPI                Backend
 
-Frontend
+Qwen AI                        AI analysis
 
-Python + FastAPI
+MongoDB Atlas                   Database
 
-Backend
+PyMongo                      Database connection
 
-Qwen AI
+Vercel                        Frontend deployment
 
-AI analysis
-
-MongoDB Atlas
-
-Database
-
-PyMongo
-
-Database connection
-
-Vercel
-
-Frontend deployment
-
-Render
-
-Backend deployment
-
-## 📂 Project Structure
-
-FutureMind-AI/
-├── backend/
-│   ├── app/
-│   │   ├── main.py
-│   │   ├── agents.py
-│   │   ├── database.py
-│   │   ├── qwen_client.py
-│   │   └── schemas.py
-│   ├── .env.example
-│   └── requirements.txt
-│
-├── frontend/
-│   ├── src/
-│   │   ├── App.jsx
-│   │   ├── main.jsx
-│   │   └── style.css
-│   ├── package.json
-│   └── vercel.json
-│
-├── .gitignore
-└── README.md
+Render                        Backend deployment
 
 ## ⚙️ Local Setup
 
@@ -193,25 +186,15 @@ Open http://localhost:5173 in your browser.
 
 ## 🌐 Deployment
 
-Component
+Component                     Platform
 
-Platform
+Frontend                       Vercel
 
-Frontend
+Backend                        Render
 
-Vercel
+Database                     MongoDB Atlas
 
-Backend
-
-Render
-
-Database
-
-MongoDB Atlas
-
-Source Code
-
-GitHub
+Source Code                    GitHub
 
 ## 🔐 Security
 
@@ -237,11 +220,11 @@ Advanced risk analysis.
 
 ## 🔗 Project Links
 
-Live Demo: Add your Vercel URL.
+Live Demo: https://future-mind-ai.vercel.app
 
 GitHub: Add your repository URL.
 
-API Documentation: Add your Render /docs URL.
+API Documentation: http://127.0.0.1:8000/docs#/
 
 ## ⚠️ Disclaimer
 

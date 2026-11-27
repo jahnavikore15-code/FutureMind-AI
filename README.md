@@ -17,6 +17,7 @@ FUTUREMIND AI also uses MongoDB Atlas to persist simulation reports and maintain
 ---
 
 ## 🚀 Live Demo
+**Demo Video:** https://youtu.be/gzcFlNhOlpQ?si=-wyNHNNvapxreNpJ
 
 **Frontend:** https://future-mind-ai.vercel.app
 
